@@ -1,0 +1,6 @@
+
+This is an application of File Handling in Python
+Hello my name is Aadi
+I am 14yrs old
+I am from India and I live in New Zealand
+My Brother is Ahaan, he is 4yrs old
