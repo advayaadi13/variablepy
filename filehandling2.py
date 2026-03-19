@@ -1,0 +1,22 @@
+file = open('filehandling2.txt', 'w')
+file.write("\n Codingal is on a mission to inspire school kids to fall in love with coding.")
+file.write("\n Coding helps develop logical thinking and problem-solving skills.")
+file.write("\n Coding jobs are the future.")
+file.write("\n They already constitute more than 60% of all the jobs in Science, Technology, Engineering, and Math.")
+file.write("\n While still in school, those who start young will be ahead of everyone by the time they get into college.")
+file.write("\n They will be creators of the future.")
+file.write("\n Do you want to join us too?")
+file.close()
+
+file1 = open('filehandling2.txt', 'r')
+print(file1.read())
+file1.close()
+
+file2 = open('filehandling2.txt', 'r')
+print("\n Read in Parts \n")
+print(file2.read(8))
+file2.close()
+
+file3 = open('filehandling2.txt', 'a')
+file3.write("Hi! I am Penguin and I am 1 yr old.")
+file3.close()
